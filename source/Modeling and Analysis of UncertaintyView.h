@@ -28,6 +28,8 @@ public:
 	CModelingandAnalysisofUncertaintyDoc* GetDocument() const;
 private:
 	void TwoSampleBoxPlot(CModelingandAnalysisofUncertaintyDoc*, CDC*, int, int, double, double, double, double, double, CArray<double>&, int, CPoint&, CPoint&, int, double, double);
+	void OnMouseMove(UINT nFlags, CPoint point);
+	bool IsMouseNearDataPoint(CPoint point);
 	double GAM(double);
 	// plots for two sample hypothesis testing
 	void DisplayRectangleTwoTailed(CModelingandAnalysisofUncertaintyDoc*, CDC*, double, double, double, CString, double, double, char);
