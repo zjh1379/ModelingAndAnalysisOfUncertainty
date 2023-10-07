@@ -9367,25 +9367,6 @@ void CModelingandAnalysisofUncertaintyView::TwoSampleBoxPlot(CModelingandAnalysi
 
 
 
-/*
-
-
-// Two helper function to identify the mouse position for showing data points.
-void CModelingandAnalysisofUncertaintyView::OnMouseMove(UINT nFlags, CPoint point)
-{
-	// Check if the mouse is near any data point
-	if (IsMouseNearDataPoint(point)) {
-		Invalidate();
-	}
-	else {
-		// You might want to restore the cursor or clear any tooltip here.
-	}
-	CView::OnMouseMove(nFlags, point);
-}
-
-
-*/
-
 
 
 // Helper function to draw grid
