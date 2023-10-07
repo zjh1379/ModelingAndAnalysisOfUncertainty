@@ -9482,6 +9482,15 @@ void CModelingandAnalysisofUncertaintyView::PlotLossCurve() {
 	}
 }
 
+		// Draw the X and Y axis labels at more appropriate locations
+		dc.TextOutW(startX, startY + 10, L"Iterations");
+		dc.TextOutW(startX - 40, endY - 25, L"Loss Value");
+
+		
+
+	}
+}
+
 // After ANN training call this view function to plot the accuracy curve
 void CModelingandAnalysisofUncertaintyView::PlotAccuraciesCurve() {
 	// read in txtx log file data
